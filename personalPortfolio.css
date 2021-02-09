@@ -1,0 +1,21 @@
+h1  {
+  color: navy;
+  font-size: 120px;
+  text-align: center;
+}
+
+nav {
+  background: gray;
+  width: 100%;
+  font-size: 50px;
+  color: navy;
+  padding: .25em 1.5em;
+  opacity: 80%;
+
+
+
+}
+
+nav a {
+  text-decoration: none;
+}
