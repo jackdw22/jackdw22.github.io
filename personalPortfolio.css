@@ -1,0 +1,28 @@
+
+head{
+  background:#B23850;
+}
+nav {
+  background:#B23850;
+  width: 100%;
+  font-size: 50px;
+  color: #E7E3D4;
+  list-style-type: space .25em 1.5em;
+  opacity: 80%
+
+
+
+}
+h1 {
+  color: #B23850;
+  font-size: 80px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #C4DBF6
+}
