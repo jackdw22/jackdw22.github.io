@@ -28,6 +28,9 @@ h5 {
 
 
 }
+.tab:hover {
+  font-weight: bold; 
+}
 
 .post-title{
     text-align: left;

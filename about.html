@@ -72,46 +72,52 @@
 
     <!-- Main Content -->
     <ul class="tabs">
-      <li><a href="#summary">My Story</a></li>
-      <li><a href="#random">Random Facts</a></li>
+      <li data-tab-target="#summary" class="active tab">My Story</li>
+      <li data-tab-target="#random" class="active tab">Random Facts</li>
     </ul>
     <hr>
+    <div class="tab-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div id="summary" data-tab-content class="active">
+            <h3>My Story</h3>
+            <p>My faith, family, and friends are the most important things to me in life! I grew up moving between Colorado, Utah, and Arizona and I'm currently studying at BYU in Provo. 
+              From my parents I learned the importance of working hard then playing harder and if I'm not busy with school you will find me golfing, skiing, climbing, biking, or skating. 
+            </p>
+            <hr>
+            <div class="row-image">
+              <div class="column-image">
+                <img src="img/skating.jpg" alt="skating" width="300" class="hobbies">
+              </div>  
+              <div class="column-image" id="pictures">
+                <img src="img/skiing.jpg" alt="skiing" width="300" class="hobbies">
+                <img src="img/biking.jpg" alt="biking" width="300" class="hobbies">
+              </div>
+            </div>
+            </div>
+            
+           
+
+        </div>
+      </div>
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-         
+          <div id="random" data-tab-content>
 
-          <video controls autoplay muted width="600">
-            <source src="img/about_me_video.mp4" type="video/mp4" >
-            Your browswer does not support the video tag.
-          </video>
-          <hr>
-        
-          <h3 id="summary">My Story</h3>
-          <p>My faith, family, and friends are the most important things to me in life! I grew up moving between Colorado, Utah, and Arizona and I'm currently studying at BYU in Provo. 
-            From my parents I learned the importance of working hard then playing harder and if I'm not busy with school you will find me golfing, skiing, climbing, biking, or skating. 
-          </p>
-          <hr>
-          <div class="row-image">
-            <div class="column-image">
-              <img src="img/skating.jpg" alt="skating" width="300" class="hobbies">
-            </div>  
-            <div class="column-image" id="pictures">
-              <img src="img/skiing.jpg" alt="skiing" width="300" class="hobbies">
-              <img src="img/biking.jpg" alt="biking" width="300" class="hobbies">
-            </div>
-          </div>
-          <hr>
-          <h3 id="random">Random Facts about me!</h3>
-        
+          <h3>Random Facts about me!</h3>
+                
           <ol>
             <li>I went to 7 different elementary schools</li>
             <li>I'm the oldest of over 30 grandkids on my mom's side</li>
             <li>My favorite city in the world is Warsaw</li>
           </ol>
         </div>
-
       </div>
+    </div>
+    </div>
     </div>
 
     <hr>
@@ -158,6 +164,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/clean-blog.min.js"></script>
+    <script src="js/site.js"></script>
 
   </body>
 
